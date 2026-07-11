@@ -183,6 +183,92 @@ a {
 
 
 
+/*                      Secure Your Spot section.
+    ===========================================================
+*/
+#secure_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    color: #575757;
+}
+
+#secure_section h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+#secure_section p {
+    color: #575757;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.secure_grid {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card_div {
+    padding: 3rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card_div hr {
+    color: #575757;
+}
+
+.first_span {
+    font-weight: 600;
+    font-size: .75rem;
+}
+
+.block_bold_span {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #000;
+    display: block;
+}
+
+.first_span {
+    font-size: 1rem;
+}
+
+.secure_ul_div {
+    padding-left: 1rem;
+}
+
+.card_div button {
+    background-color: transparent;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    padding: .5rem 3rem;
+}
+
+.highlight_card_div {
+    background-color: #0D1B2A;
+    color: #E5E7EB;
+}
+
+.highlight_card_div .block_bold_span {
+    color: #fff;
+}
+
+.highlight_card_div button {
+    color: #fff;
+    background-color: #2563EB;
+}
+
+
+
 
 /* 
 

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
-    font-family: "Inter", "Arimo" , sans-serif;
+    font-family: "Inter", "Arimo", sans-serif;
     font-style: normal;
 }
 
 .menu_nav {
-    font-family: "Arimo" ;
+    font-family: "Arimo";
 }
 
 * {
@@ -59,7 +59,7 @@ a {
 }
 
 /* Middle nav */
-.menu_nav nav ul{
+.menu_nav nav ul {
     list-style: none;
     gap: 1.5rem;
 }
@@ -96,8 +96,11 @@ a {
 
 .banner_text h2 {
     font-size: 5rem;
-    font-style: italic;
     font-weight: bold;
+}
+
+.banner_text h2 span {
+    font-style: italic;
 }
 
 .banner_text p {
@@ -115,7 +118,7 @@ a {
 .banner_overlay {
     background: linear-gradient(45deg, #000 0%, transparent 100%);
     padding: 4rem 0 3rem;
-    
+
 }
 
 /* 
@@ -151,7 +154,7 @@ a {
     border-radius: 1rem;
 }
 
-.meet_grid div img{
+.meet_grid div img {
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -200,6 +203,7 @@ a {
     font-size: 3rem;
     text-align: center;
 }
+
 #secure_section p {
     color: #575757;
     font-size: 1rem;

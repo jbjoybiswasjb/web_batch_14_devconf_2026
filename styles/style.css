@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", "Arimo" , sans-serif;
+    font-style: normal;
+}
+
+.menu_nav {
+    font-family: "Arimo" ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.for_display_flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.common_btn {
+    background-color: #1D4ED8;
+    color: #fff;
+    border-radius: .6rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* 
+
+                                                            Header.
+    ================================================================================================================
+*/
+
+/*                      Navbar section.
+    ===========================================================
+*/
+#navbar_section {
+    width: 90%;
+    margin: 0 auto 0;
+    padding: 2rem;
+}
+
+#navbar_section .for_display_flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Middle nav */
+.menu_nav nav ul{
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.menu_nav nav ul li a {
+    font-size: 1rem;
+    color: #575757;
+}
+
+/* Right navbar. */
+.right_navbar button {
+    padding: .6rem 2rem;
+    font-weight: bold;
+}
+
+
+
+/* 
+
+                                                        Main.
+    ================================================================================================================
+*/
+
+
+
+
+
+
+/* 
+
+                                                        Footer.
+    ================================================================================================================
+*/

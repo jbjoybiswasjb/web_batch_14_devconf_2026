@@ -124,6 +124,61 @@ a {
     ================================================================================================================
 */
 
+/*                      Meet the Speakers section.
+    ===========================================================
+*/
+#meet_section {
+    width: 90%;
+    margin: 5rem auto;
+}
+
+#meet_section h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 3.75rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.meet_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.meet_grid div {
+    border: 1px solid #E5E7EB;
+    border-radius: 1rem;
+}
+
+.meet_grid div img{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.meet_grid div article {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.meet_grid div article h3 {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.meet_grid div article a {
+    color: #2563EB;
+    font-weight: 600;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+.meet_grid div article p {
+    color: #575757;
+    font-size: 1rem;
+}
 
 
 

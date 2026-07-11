@@ -82,35 +82,40 @@ a {
 */
 #banner_section {
     background-image: url("../assets/banner.jpg");
-    padding: 4rem 0 3rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#banner_section div {
+.banner_text {
     width: 60%;
     margin: 0 auto;
     color: #fff;
     text-align: center;
 }
 
-#banner_section div h2 {
+.banner_text h2 {
     font-size: 5rem;
     font-style: italic;
     font-weight: bold;
 }
 
-#banner_section div p {
+.banner_text p {
     margin: 3rem auto 18rem;
     width: 75%;
 }
 
-#banner_section div button {
+.banner_text button {
     border-radius: .6rem;
     padding: 1rem 3rem;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.banner_overlay {
+    background: linear-gradient(45deg, #000 0%, transparent 100%);
+    padding: 4rem 0 3rem;
+    
 }
 
 /* 
